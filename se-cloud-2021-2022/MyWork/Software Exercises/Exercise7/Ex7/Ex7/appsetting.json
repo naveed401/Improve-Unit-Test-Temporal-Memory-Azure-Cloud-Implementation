@@ -1,0 +1,25 @@
+{
+  "exclude": [
+    "**/bin",
+    "**/bower_components",
+    "**/jspm_packages",
+    "**/node_modules",
+    "**/obj",
+    "**/platforms"
+  ],
+  "Settings": {
+    "number": 1,
+    "wordd": "Hello",
+    "nested": {
+      "nestedVar": 333
+    }
+  },
+  "BindClass": {
+    "varOne": "Hello Worlds",
+    "varTwo": 60,
+    "varThre": 543,
+    "varsd": "sd"
+  },
+  "one": 3,
+  "two": 2
+}

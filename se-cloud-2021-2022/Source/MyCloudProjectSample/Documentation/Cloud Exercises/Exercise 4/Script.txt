@@ -1,0 +1,25 @@
+Exercise 4
+
+1. Add docker support to the webapp
+
+2. Create azure container registry - here (theautoapp)
+        az acr create --name bestcarapp --resource-group CarApp --sku standard --admin-enabled true
+
+3. Deploy the Dockerfile to ACR - 
+        az acr build --file Dockerfile --registry carapplication --image carapplication .
+
+OR
+   Create docker image 
+        docker build -t bestcarapp .
+		 
+   Create tag as per registry
+        docker tag bestcarapp:latest carapplication.azurecr.io/bestcarapp:v1
+
+    Azure CLI login to ACR
+	     az acr login -n carapplication.azurecr.io
+		
+    Push docker image
+	    docker push carapplication.azurecr.io/bestcarapp:v1
+
+
+4. Create webapp via GUI for Docker container which was push in Step 3

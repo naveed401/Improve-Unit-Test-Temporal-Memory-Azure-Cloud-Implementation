@@ -1,0 +1,18 @@
+Exercise 3
+
+1. dotnet new mvc --name bestapp
+
+2. cd BestAutoApp; dotnet run
+	check the app is running ok
+
+3. dotnet publish -o pub 
+
+4. Go inside publish and create zip as "site.zip"
+
+5. az login
+
+6. Create resource group in azure portal (TestExercise) and create a webapp in Azure App Service (mytestappEx)
+
+7. az webapp deployment source config-zip --src .\pub.zip --resource-group bestapp --name bestapp
+
+Open brower with the url of webapp obtained from azure portal and the app is running!

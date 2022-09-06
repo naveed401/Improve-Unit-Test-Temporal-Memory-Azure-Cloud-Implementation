@@ -1,0 +1,26 @@
+C:\Users\NAVEED>dotnet --info
+.NET SDK (reflecting any global.json):
+ Version:   6.0.100
+ Commit:    9e8b04bbff
+
+Runtime Environment:
+ OS Name:     Windows
+ OS Version:  10.0.19043
+ OS Platform: Windows
+ RID:         win10-x64
+ Base Path:   C:\Program Files\dotnet\sdk\6.0.100\
+
+Host (useful for support):
+  Version: 6.0.0
+  Commit:  4822e3c3aa
+
+.NET SDKs installed:
+  6.0.100 [C:\Program Files\dotnet\sdk]
+
+.NET runtimes installed:
+  Microsoft.AspNetCore.App 6.0.0 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.NETCore.App 6.0.0 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.WindowsDesktop.App 6.0.0 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+
+To install additional .NET runtimes or SDKs:
+  https://aka.ms/dotnet-download
