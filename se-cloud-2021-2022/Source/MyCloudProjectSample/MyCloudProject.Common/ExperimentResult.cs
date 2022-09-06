@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace MyCloudProject.Common
+namespace MyCloudProject.Common 
 {
 
     public class ExperimentResult : ITableEntity, IExperimentResult
